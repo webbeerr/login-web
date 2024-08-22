@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+
+
+*{
+   margin: 0px;
+   padding:5px;
+   font-family: "Mochiy Pop One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   
+}
+body  {
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,121,9,1) 0%, rgba(0,212,255,1) 79%);
+ 
+}
+.container{
+
+   border: 2px solid black ;
+   border-radius: 8px;
+    width:30vw ;
+    height: 60vh;
+    margin: 10vw; 
+    margin-left: 35vw; 
+}
+.lgn{
+    text-align: center;
+
+}
+.input-box label{
+    display: block;
+  margin-left:10vh;
+ 
+}
+
+.input-box input{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 25vw;
+    border-radius: 10px;
+    border: 2px solid black;
+   opacity: 0.8;
+}
+.pass label{
+    display: block;
+    margin-left:10vh;
+}
+.pass input{
+    border-radius: 10px;
+    border: 2px solid black;
+    opacity: 0.8;
+    width: 25vw;
+    display: flex; 
+    margin: auto;
+  
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    }
+    button{
+        width: 20vh;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,107,1) 40%, rgba(0,212,255,1) 79%);
+         border-radius: 8px;
+        cursor: pointer;
+        color: white;
+        font-weight: 900;
+        
+    }
+   
+.forget{
+    text-align: center;
+}
+.img div {
+    display: inline;
+    vertical-align: middle;  
+  
+}
+img{
+    width: 3vw;
+    border-radius: 50%;
+    transform: translateX(8vw); 
+}
